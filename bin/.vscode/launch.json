@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SCVApplication<scv>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "edu.ifes.ci.si.les.scv.SCVApplication",
+            "projectName": "scv",
+            "args": ""
+        }
+    ]
+}
