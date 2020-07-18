@@ -74,7 +74,7 @@ O objetivo do sistema é agilizar o processo de empréstimo e garantir maior seg
 
 ## :computer: Instalação e execução <a name="-instalacao"/></a>
 
-0. Instale o gerenciador de dependências Maven;
+0. Instale o gerenciador de dependências [Maven](https://maven.apache.org/download.cgi);
 1. Faça um clone desse repositório;
 2. Entre na pasta rodando `cd scv-backend-spring`;
 3. Rode `mvn spring-boot:run` para iniciar o servidor de desenvolvimento;
@@ -84,8 +84,8 @@ O objetivo do sistema é agilizar o processo de empréstimo e garantir maior seg
 
 - [GitHub Pages](https://ravarmes.github.io/) - Implantação do SCV Frontend React Redux;
 - [Heroku](https://scv-backend-spring.herokuapp.com/) - Implantação do SCV Backend Spring Boot;
-- [Postman](https://documenter.getpostman.com/view/4048967/Szf9XTg4) - Documentação do SCV Backend Spring Boot
-- [YouTube](https://www.youtube.com/watch?v=XoejSRAPgs4&list=PL-mvLy2ws8IKOvqm2RClenHXArjQvo_pH) - Vídeos sobre o SCV Backend Spring Boot
+- [Postman](https://documenter.getpostman.com/view/4048967/Szf9XTg4) - Documentação do SCV Backend Spring Boot;
+- [YouTube](https://www.youtube.com/watch?v=XoejSRAPgs4&list=PL-mvLy2ws8IKOvqm2RClenHXArjQvo_pH) - Vídeos sobre o SCV Backend Spring Boot.
 
 ## :memo: Licença <a name="-licenca"/></a>
 
