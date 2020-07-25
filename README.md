@@ -9,7 +9,7 @@
 <p align="center">Exemplo de um Sistema para Gerenciamento de Locadora</p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ravarmes/scv-frontend-react-redux?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ravarmes/scv-backend-spring?color=%2304D361">
 
   <a href="http://www.linkedin.com/in/rafael-vargas-mesquita">
     <img alt="Made by Rafael Vargas Mesquita" src="https://img.shields.io/badge/made%20by-Rafael%20Vargas%20Mesquita-%2304D361">
@@ -17,8 +17,8 @@
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-  <a href="https://github.com/ravarmes/scv-frontend-react-redux/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/ravarmes/scv-frontend-react-redux?style=social">
+  <a href="https://github.com/ravarmes/scv-backend-spring/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/ravarmes/scv-backend-spring?style=social">
   </a>
 </p>
 
