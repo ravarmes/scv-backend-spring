@@ -82,7 +82,7 @@ O objetivo do sistema é agilizar o processo de empréstimo e garantir maior seg
 
 ## :link: Links <a name="-links"/></a>
 
-- [GitHub Pages](https://ravarmes.github.io/) - Implantação do SCV Frontend React Redux;
+- [GitHub Pages](https://ravarmes.github.io/scv-frontend-react-redux/) - Implantação do SCV Frontend React Redux;
 - [Heroku](https://scv-backend-spring.herokuapp.com/) - Implantação do SCV Backend Spring Boot;
 - [Postman](https://documenter.getpostman.com/view/4048967/Szf9XTg4) - Documentação do SCV Backend Spring Boot;
 - [YouTube](https://www.youtube.com/watch?v=XoejSRAPgs4&list=PL-mvLy2ws8IKOvqm2RClenHXArjQvo_pH) - Vídeos sobre o SCV Backend Spring Boot.
