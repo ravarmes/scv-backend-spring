@@ -21,11 +21,11 @@ public interface EmprestimoRepository extends JpaRepository<Emprestimo, Integer>
     public Collection<Emprestimo> findByClienteAndPeriodo(Integer idCliente, String inicio, String termino);
 
     @Transactional(readOnly = true)
-    @Query(value = "select CLIENTE.NOME as nome, sum(VALOR) as total, count(VALOR) as quantidade from EMPRESTIMO inner join CLIENTE on EMPRESTIMO.CLIENTE_ID = CLIENTE.ID where DATA > ?1 and DATA < ?2 group by EMPRESTIMO.CLIENTE_ID", nativeQuery = true)
+    @Query(value = "select CLIENTE.NOME as nome, sum(VALOR) as total, count(VALOR) as quantidade from EMPRESTIMO inner join CLIENTE on EMPRESTIMO.CLIENTE_ID = CLIENTE.ID where DATA >= ?1 and DATA <= ?2 group by EMPRESTIMO.CLIENTE_ID", nativeQuery = true)
     public Collection<?> findTotaisAndQuantidadesEmprestimosOfClientesByPeriodo(String inicio, String termino);
 
     @Transactional(readOnly = true)
-    @Query(value = "select BAIRRO.NOME, count(EMPRESTIMO.ID) as QUANTIDADE from EMPRESTIMO INNER JOIN CLIENTE ON EMPRESTIMO.CLIENTE_ID = CLIENTE.ID INNER JOIN BAIRRO ON CLIENTE.BAIRRO_ID = BAIRRO.ID where DATA > ?1 and DATA < ?2 group by BAIRRO.NOME", nativeQuery = true)
+    @Query(value = "select BAIRRO.NOME, count(EMPRESTIMO.ID) as QUANTIDADE from EMPRESTIMO INNER JOIN CLIENTE ON EMPRESTIMO.CLIENTE_ID = CLIENTE.ID INNER JOIN BAIRRO ON CLIENTE.BAIRRO_ID = BAIRRO.ID where DATA >= ?1 and DATA <= ?2 group by BAIRRO.NOME", nativeQuery = true)
     public Collection<?> findQuantidadesEmprestimosOfBairrosByPeriodo(String inicio, String termino);
 
     @Transactional(readOnly = true)
